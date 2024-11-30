@@ -26,5 +26,12 @@ To use it, first craft a waypoint tool by putting a wool block above a stick in 
 Now open the tool menu and click "Add Waypoint".
 The waypoint will by default be placed at your position and you can edit it through the popup menu.
 
+Waypoints appear in the world unless you turn them off in "Waypoint Settings" (found in the waypoint tool)
+
+Also in the waypoint tool you will find a waypoint list that allows you to view and edit your waypoints.
+
+## Requirements
+- Minecraft 1.21.40 or any newer version.
+- No experimental toggles required
 
 </div>
