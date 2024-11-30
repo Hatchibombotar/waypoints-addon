@@ -1,0 +1,40 @@
+{
+    "format_version": "1.20.41",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "hatchi:waypoint",
+            "is_spawnable": true,
+            "is_summonable": true,
+            "properties": {
+                "hatchi:waypoint_symbol": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 30]
+                },
+                "hatchi:waypoint_background": {
+                    "client_sync": true,
+                    "default": 0,
+                    "type": "int",
+                    "range": [0, 16]
+                }
+            }
+        },
+        "component_groups": {},
+        "components": {
+            "minecraft:collision_box": {
+                "height": 0,
+                "width": 0
+            },
+            "minecraft:damage_sensor": {
+                "triggers": [
+                    {
+                        "cause": "all",
+                        "deals_damage": false
+                    }
+                ]
+            }
+        },
+        "events": {}
+    }
+}

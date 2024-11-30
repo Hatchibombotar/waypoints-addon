@@ -1,0 +1,45 @@
+item.hatchi:waypoints_menu=Waypoint Menu
+
+hatchi:waypoints.ui.main_menu.title=Waypoints Menu
+hatchi:waypoints.ui.main_menu.add_waypoint=Add Waypoint
+hatchi:waypoints.ui.main_menu.waypoint_list=Your Waypoints
+hatchi:waypoints.ui.main_menu.settings=Settings
+hatchi:waypoints.ui.main_menu.info=Info
+
+hatchi:waypoints.ui.edit_menu.title=Waypoint Options
+hatchi:waypoints.ui.edit_menu.waypoint_name=Name
+hatchi:waypoints.ui.edit_menu.colour=Market Colour
+hatchi:waypoints.ui.edit_menu.name=Colour
+
+hatchi:waypoints.ui.icon_menu.title=Marker Icon
+hatchi:waypoints.ui.edit_menu.letter_icon_text=Letter
+hatchi:waypoints.ui.edit_menu.letter_icon_text_disabled=Letter (disabled)
+hatchi:waypoints.ui.edit_menu.house_icon=Home
+
+hatchi:waypoints.ui.waypoint_list.title=Waypoints
+hatchi:waypoints.ui.waypoint_list.empty=Create a waypoint and it will appear in this list!
+
+hatchi:waypoints.ui.waypoint_actions.edit=Edit
+hatchi:waypoints.ui.waypoint_actions.share=Share
+hatchi:waypoints.ui.waypoint_actions.delete=Delete
+
+hatchi:waypoints.ui.settings.title=Settings
+hatchi:waypoints.ui.settings.show_waypoints=Show Waypoints
+hatchi:waypoints.ui.settings.allow_sharing=Allow Waypoint Sharing
+
+hatchi:waypoints.ui.info.title=Info
+
+hatchi:waypoints.ui.title=Waypoints
+hatchi:waypoints.ui.close=Close
+
+hatchi:waypoints.ui.share.title=Share with who?
+hatchi:waypoints.ui.share.everyone=§aEveryone
+
+hatchi:waypoints.ui.share_recieve.accept=Accept
+hatchi:waypoints.ui.share_recieve.decline=Decline
+hatchi:waypoints.ui.share_recieve.decline_and_disable=Decline & Disable Waypoint Sharing
+
+hatchi:waypoints.ui.share_recieve.share_message=%s has shared a waypoint with you!
+hatchi:waypoints.ui.share_recieve.waypoint_name=Name: %s
+hatchi:waypoints.ui.share_recieve.waypoint_location=Location: %s
+hatchi:waypoints.ui.share_recieve.waypoint_dimension=Dimension: %s

@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Waypoints RP",
+        "description": "By Hatchibombotar",
+        "uuid": "14e479a2-5e30-43cd-a6ca-071ee92c1f8b",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "c6d6ceeb-0412-4378-887e-eb89b2a6bc08",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "d176c7fb-edcc-4466-85ef-2b0743fa58ce",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

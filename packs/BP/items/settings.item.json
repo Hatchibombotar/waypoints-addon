@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.70",
+    "minecraft:item": {
+        "description": {
+            "identifier": "hatchi:waypoints_menu"
+        },
+        "components": {
+            "minecraft:icon": {
+                "textures": {
+                    "default": "waypoints_menu"
+                }
+            }
+        }
+    }
+}

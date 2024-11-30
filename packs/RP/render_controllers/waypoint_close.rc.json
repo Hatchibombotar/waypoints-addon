@@ -1,0 +1,17 @@
+{
+    "format_version": "1.20.41",
+    "render_controllers": {
+        "controller.render.waypoint_close": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.default"
+            ],
+            "ignore_lighting": true
+        }
+    }
+}

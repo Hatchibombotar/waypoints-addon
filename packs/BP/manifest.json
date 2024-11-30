@@ -1,0 +1,39 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Waypoints BP",
+        "description": "By Hatchibombotar",
+        "uuid": "d176c7fb-edcc-4466-85ef-2b0743fa58ce",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            21,
+            40
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "995cd0ae-a574-45a9-8bbe-2db6ab2a46d4",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "14e479a2-5e30-43cd-a6ca-071ee92c1f8b",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ]
+}

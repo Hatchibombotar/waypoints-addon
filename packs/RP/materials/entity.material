@@ -1,0 +1,12 @@
+{
+    "materials": {
+        "version": "1.0.0",
+
+        "waypoint:entity_alphatest": {
+            "depthFunc": "Always",
+            "+defines": [
+                "USE_UV_ANIM"
+            ]
+        }
+    }
+}

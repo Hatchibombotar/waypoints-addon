@@ -1,0 +1,51 @@
+{
+    "format_version": "1.21.40",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "hatchi:waypoint",
+            "materials": {
+                "default": "waypoint"
+            },
+            "textures": {
+                "bg_black": "textures/waypoints/backgrounds/black.png",
+                "bg_dark_blue": "textures/waypoints/backgrounds/dark_blue.png",
+                "bg_dark_green": "textures/waypoints/backgrounds/dark_green.png",
+                "bg_dark_aqua": "textures/waypoints/backgrounds/dark_aqua.png",
+                "bg_dark_red": "textures/waypoints/backgrounds/dark_red.png",
+                "bg_dark_purple": "textures/waypoints/backgrounds/dark_purple.png",
+                "bg_gold": "textures/waypoints/backgrounds/gold.png",
+                "bg_gray": "textures/waypoints/backgrounds/gray.png",
+                "bg_dark_gray": "textures/waypoints/backgrounds/dark_gray.png",
+                "bg_blue": "textures/waypoints/backgrounds/blue.png",
+                "bg_green": "textures/waypoints/backgrounds/green.png",
+                "bg_aqua": "textures/waypoints/backgrounds/aqua.png",
+                "bg_red": "textures/waypoints/backgrounds/red.png",
+                "bg_light_purple": "textures/waypoints/backgrounds/light_purple.png",
+                "bg_yellow": "textures/waypoints/backgrounds/yellow.png",
+                "bg_white": "textures/waypoints/backgrounds/white.png",
+                "icons": "textures/waypoints/icons.png",
+                "default": "textures/waypoint_block.png"
+            },
+            "geometry": {
+                "default": "geometry.waypoint",
+                "icon": "geometry.waypoint_icon"
+            },
+            "animations": {
+                "default": "animation.waypoint.default"
+            },
+            "scripts": {
+                "animate": [
+                    "default"
+                ]
+            },
+            "render_controllers": [
+                "controller.render.waypoint",
+                "controller.render.waypoint_icon"
+            ],
+            "spawn_egg": {
+                "base_color": "#288483",
+                "overlay_color": "#2B7135"
+            }
+        }
+    }
+}

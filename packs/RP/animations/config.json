@@ -1,0 +1,28 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.waypoint_close.idle": {
+			"loop": true,
+			"animation_length": 60,
+			"bones": {
+				"beacon": {
+					"rotation": [0, 0, 0],
+					"scale": "query.distance_from_camera > 20 ? math.max(0, 20/query.distance_from_camera): 1"
+				},
+				"cube": {
+					"rotation": [0, "q.life_time * 100", 0],
+					"position": [0, "math.sin(q.life_time*150) * 2", 0],
+					"scale": "query.distance_from_camera > 20 ? query.distance_from_camera/20: 1"
+				}
+			}
+		},
+		"animation.waypoint_close.distance": {
+			"loop": true,
+			"bones": {
+				"beacon": {
+					"scale": "query.distance_from_camera > 20 ? math.max(0, 20/query.distance_from_camera): 1"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,59 @@
+{
+    "format_version": "1.10.0",
+    "render_controllers": {
+        "controller.render.waypoint": {
+            "geometry": "Geometry.default",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "array.backgrounds[q.property('hatchi:waypoint_background')]"
+            ],
+            "arrays": {
+                "textures": {
+                    "array.backgrounds": [
+                        "Texture.bg_black",
+                        "Texture.bg_dark_blue",
+                        "Texture.bg_dark_green",
+                        "Texture.bg_dark_aqua",
+                        "Texture.bg_dark_red",
+                        "Texture.bg_dark_purple",
+                        "Texture.bg_gold",
+                        "Texture.bg_gray",
+                        "Texture.bg_dark_gray",
+                        "Texture.bg_blue",
+                        "Texture.bg_green",
+                        "Texture.bg_aqua",
+                        "Texture.bg_red",
+                        "Texture.bg_light_purple",
+                        "Texture.bg_yellow",
+                        "Texture.bg_white"
+                    ]
+                }
+            },
+            "ignore_lighting": true
+        },
+
+        "controller.render.waypoint_icon": {
+            "geometry": "Geometry.icon",
+            "materials": [
+                {
+                    "*": "Material.default"
+                }
+            ],
+            "textures": [
+                "Texture.icons"
+            ],
+            "uv_anim": {
+                "offset": [
+                    "math.mod(math.floor(q.property('hatchi:waypoint_symbol')),18) / 18",
+                    "math.floor(q.property('hatchi:waypoint_symbol')/18) / 18"
+                ],
+                "scale": [ "1 / 18", "1 / 18" ]
+            },
+            "ignore_lighting": true
+        }
+    }
+}
